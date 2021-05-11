@@ -1,0 +1,14 @@
+.comment {
+  position: relative;
+  overflow-y: hidden;
+  &:after {
+    content: "";
+    height: 100%;
+    width: 2px;
+    background-color: lightgray;
+    display: block;
+    position: absolute;
+    left: 28px;
+    top: 55px;
+  }
+}
